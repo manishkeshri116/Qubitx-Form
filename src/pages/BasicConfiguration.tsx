@@ -84,13 +84,13 @@ const BasicConfiguration = () => {
                             ></textarea>
                             {errors.description && <p className="text-red-500 text-sm mt-1">{errors.description.message}</p>}
                         </div>
-{/* 
+
                         <button
                             type="submit"
                             className="px-4 py-2 rounded border border-[#3d7069] text-[#3d7069] mt-2"
                         >
                             Save Configuration
-                        </button> */}
+                        </button> 
                     </div>
                 </form>
 
